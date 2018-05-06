@@ -1,0 +1,22 @@
+{
+    "name": "visionary89/raw-input",
+    "type": "project",
+    "license": "WTFPL",
+    "authors": [
+        {
+            "name": "Dmitry Salnikov",
+            "email": "dmitrysalnikovpublic@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "RawInput\\": "src/"
+        }
+    }
+}
